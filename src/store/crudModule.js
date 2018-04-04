@@ -36,6 +36,7 @@ export const actions = {
     setDefaults({ commit }, values){
         commit(mutations.setTarget.name, values.target)
         commit(mutations.setItemKey.name, values.key || "id")
+        commit(mutations.setItems.name, [])
     },
 
     listItems({ commit, state }, filters){

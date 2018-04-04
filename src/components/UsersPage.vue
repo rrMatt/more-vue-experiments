@@ -21,7 +21,7 @@
             </v-select>
           </v-flex>
         </v-layout>
-        <template slot="headers">
+        <template slot="header">
           <th>Name</th>
           <th>Email</th>
           <th>Gender</th>
