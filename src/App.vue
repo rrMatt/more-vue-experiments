@@ -26,6 +26,12 @@
           </v-list-tile-action>
           <v-list-tile-content>About</v-list-tile-content>
         </v-list-tile>
+        <v-list-tile to="/events" :exact="true">
+          <v-list-tile-action>
+            <v-icon>label</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>Events</v-list-tile-content>
+        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar

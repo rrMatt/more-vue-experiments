@@ -49,7 +49,7 @@
           :hide-actions="true"
           class="text-xs-left my-2 mx-4">
           <template slot="headers" slot-scope="props">
-            <slot name="headers"></slot>
+            <slot name="header"></slot>
             <th>Actions</th>
           </template>
           <template slot="items" slot-scope="props">
